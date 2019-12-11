@@ -282,7 +282,7 @@
         <type>jar</type>
         <scope>test</scope>
     </dependency>
-    
+
   </dependencies>
 
   <!-- Perhaps we can't do this with git?
@@ -299,5 +299,13 @@
   </distributionManagement>
 
   -->
+
+  <distributionManagement>
+    <repository>
+      <id>bintray-saasquatch-java-libs</id>
+      <name>saasquatch-java-libs</name>
+      <url>https://api.bintray.com/maven/saasquatch/java-libs/keyczar-repack/;publish=1</url>
+    </repository>
+  </distributionManagement>
 
 </project>
